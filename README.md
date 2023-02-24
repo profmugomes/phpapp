@@ -1,6 +1,6 @@
 # phpapp
 
-PHPApp é um aplicativo desenvolvido em Python que permite desenvolver aplicativos desktop com PHP.
+PHPApp é um aplicativo desenvolvido em Python que permite desenvolver e rodar aplicativos em PHP no desktop.
 
 Assim que você iniciar o PHPApp irá iniciar o servidor embutido do PHP com uma porta aleatória que não está sendo usada, dessa forma é possível usar dois ou mais aplicativos ao mesmo tempo, sem que um interrompa o servidor do outro.
 
