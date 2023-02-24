@@ -1,6 +1,8 @@
 # phpapp
 
-PHPApp é um aplicativo desenvolvido em Python que permite iniciar o servidor embutido do PHP com portas geradas de forma aleatória para que possa usar dois ou mais aplicativos ao mesmo tempo, dessa forma impedindo que um aplicativo derrube o servidor iniciado para o outro aplicativo.
+PHPApp é um aplicativo desenvolvido em Python que permite desenvolver aplicativos desktop com PHP.
+
+Assim que você iniciar o PHPApp irá iniciar o servidor embutido do PHP com uma porta aleatória que não está sendo usada, dessa forma é possível usar dois ou mais aplicativos ao mesmo tempo, sem que um interrompa o servidor do outro.
 
 Para que o PHPApp funcione é necessário ter o php-cli instalado.
 
@@ -12,3 +14,11 @@ Requerimento
 - php-cli
 
 Testado na distro Lubuntu
+
+Usando o PHPApp
+
+- Abra o terminal e digite chmod +x phpapp.py
+
+- Após isso você já pode clicar duas vezes no phpapp.py e ele irá rodar.
+
+- Os arquivos PHP devem ser armazenados na pasta www, para que funcione corretamente você deve criar um arquivo "index.php", pois esse é o arquivo principal.
