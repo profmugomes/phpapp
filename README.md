@@ -6,7 +6,8 @@ Assim que você iniciar o PHPApp irá iniciar o servidor embutido do PHP com uma
 
 Para que o PHPApp funcione é necessário ter o php-cli instalado.
 
-Requerimento
+## Requerimento
+
 - Sistema Operacional: GNU/Linux
 - Python: 3
 - GTK: 3.0
@@ -15,7 +16,15 @@ Requerimento
 
 Testado na distro Lubuntu
 
-Usando o PHPApp
+## Aplicando permissão de execução
+
+Para que o aplicativo possa rodar é necessário aplicar a permissão de execução.
+
+```sh
+chmod +x phpapp.py
+```
+
+# Usando o PHPApp
 
 - Abra o terminal e digite chmod +x phpapp.py
 
